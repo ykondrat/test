@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: #eaeaea;
+}
+.header {
+    font-weight: bold;
+}
+.btn, .navbar-toggler {
+    cursor: pointer;
+}
+.btn:focus, .navbar-toggler:focus {
+    outline: none;
+}
+.pag-btn {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+.pag-btn button {
+    text-transform:uppercase;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+    background-color: rgba(255,255,255,0.2);
+    cursor: pointer;
+}
+.pag-btn button:hover {
+    background-color: rgba(85, 226, 205,0.8);
+}
+.pag-btn .next {
+    float: right;
+}
+.preview-div {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.done {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.sort-module  {
+    margin-bottom: 20px;
+}
